@@ -1,23 +1,37 @@
 *{
-    background-color: blue;
+    background-color: dodgerblue;
 }
 
 .htitle {
     background-color: green;
-}
+    font-size: 1rem;
+    }
 
 .top-headline {
     padding: 5px;
     background-color: green;
     text-align: center;
+    border-style: solid;
+    border-color: crimson;
+    border-width: thick;
+    border: 10px 10px;
     }
 
-
 .portrait {
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding-top: 10px;
-width: 150px;
-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 150px;
+    height: 200px;
+}
+
+.h2first {
+    
+
+
+}
+
+.para1 {
+    background-color: rgb(11, 120, 223);
 }
