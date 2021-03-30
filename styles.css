@@ -17,6 +17,19 @@
     border: 10px 10px;
     }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: green;
+    justify-content: center;
+    }
+
+.home, .resume, .contact {
+    background-color: green;
+}
+
+
 .portrait {
     display: block;
     margin-left: auto;
