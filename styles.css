@@ -27,6 +27,8 @@
 
 .home, .resume, .contact {
     background-color: green;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 
