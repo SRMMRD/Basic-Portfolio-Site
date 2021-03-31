@@ -1,9 +1,8 @@
-*{
+html {
     background-color: dodgerblue;
 }
 
 .htitle {
-    background-color: green;
     font-size: 1rem;
     }
 
@@ -40,6 +39,8 @@
     width: 150px;
     height: 200px;
 }
+
+
 
 .para1 {
     background-color: rgb(11, 120, 223);
