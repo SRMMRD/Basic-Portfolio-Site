@@ -53,3 +53,40 @@ html {
     padding: 10px 10px 10px 10px;
 
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .navbar {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: green;
+        justify-content: center;
+        }
+
+    }
+
+    @media (min-width: 1025px) and (max-width: 2456px) {
+
+        .navbar {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            background: green;
+            justify-content: space-between;
+            max-height: 60%;
+            }
+
+        .home {
+            float: left;
+        }
+
+        .contact {
+            float: right;
+        }
+    
+        }
+
+}
