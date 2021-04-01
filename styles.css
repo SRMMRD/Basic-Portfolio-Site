@@ -54,6 +54,17 @@ html {
 
 }
 
+.jobs {
+
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .navbar {
@@ -76,7 +87,8 @@ html {
             flex-wrap: nowrap;
             background: green;
             justify-content: space-between;
-            max-height: 60%;
+            max-height: auto;
+            max-width: auto;
             }
 
         .home {
@@ -87,6 +99,12 @@ html {
             float: right;
         }
     
+        .top-headline {
+
+            max-height: auto;
+            max-width: auto;
+
+        }
         }
 
 }
