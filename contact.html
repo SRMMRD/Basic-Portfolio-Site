@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
-<body>
+<div>
     
     <div class="top-headline" >
         <h1 class="htitle">Contact me about a job!</h1>
@@ -21,6 +21,29 @@
                         
                 </div>
     </div>
+
+    <!--                   PAGE CODE STARTS  HERE!!!                          -->
+
+    <p class=contactpar>If you think my skills and your company are a good match, please submit your details below.</p>
+
+    <div>
+        <form>
+        
+            <fieldset>
+            <label for "contact">Your name: </label>
+            <input type="text" id="contact" name="Contact" required><br>
+            <label for "company">Company: </label>
+            <input type="text" id="company" name="Company" required><br>
+            <label for "Job">Job title: </label>
+            <input type="text" id="job" name="Job" required><br>
+            <label for "details" class="detailbox">Use the below box to give a little detail about what you're looking for and why you think we'd be a good fit:</label><br>
+            <textarea id=details name=details rows="23" cols="47" required></textarea>
+            <input type="submit" value="Submit">
+            </fieldset>
+        
+        </form>
+    </div>
+
 
 </body>
 </html>
