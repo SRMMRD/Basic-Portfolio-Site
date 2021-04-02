@@ -102,6 +102,42 @@ input {
         justify-content: center;
         }
 
+
+    .portrait {
+        
+        margin-right: 10px;
+        float: left;
+        padding-top: 20px;
+        width: 150px;
+        height: 200px;
+        }
+
+        .para1 {
+            background-color: rgb(11, 120, 223);
+            text-align: center;
+        }
+
+    .extradeets {
+
+        display: inline-block;
+        text-align: justify;
+    }
+
+    .contactform {
+
+        display: block;
+        text-align: center;
+    }
+
+    .submitbox {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        border: solid 2px black;
+        font-weight: bold;
+
+    }
     }
 
     @media (min-width: 1025px) and (max-width: 2456px) {
@@ -131,5 +167,28 @@ input {
             max-width: auto;
 
         }
+
+        .dooties {
+            text-align: center;
+            font-size: 1rem;
         }
 
+        .contactform {
+
+            display: block;
+            text-align: center;
+        }
+    
+        .submitbox {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+            border: solid 2px black;
+            font-weight: bold;
+        }
+    
+        
+
+        
+}
